@@ -8,8 +8,9 @@ import android.widget.Button;
 
 
 public class MainActivity extends Activity {
-Button btn;
+    Button btn;
     private int x ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,5 +40,10 @@ Button btn;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    private void obah()
+    {
+
+        int i = x+1 ;
     }
 }
