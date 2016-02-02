@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     Button btn;
     private int x ;
+    private int z,y ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
